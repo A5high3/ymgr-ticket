@@ -1,0 +1,10 @@
+{
+  "short_name": "ユメグラ非公式チケットツイート確認サイト",
+  "name": "ユメグラ非公式チケットツイート確認サイト",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
