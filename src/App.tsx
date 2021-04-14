@@ -4,8 +4,10 @@ import { Button } from "react-bootstrap";
 import "./App.css";
 import "./Cast.css";
 import "./Choose.css";
+import bg from "./assets/bg.png";
 import axios from "axios";
 import dayjs from "dayjs";
+import { request } from "node:http";
 
 export interface Response {
   tweets: {
@@ -24,6 +26,9 @@ export interface Response {
 
 function judgeEnableState(isEnable: boolean, requestIds: string[]): string {
   if (isEnable === false) {
+    if (3 < requestIds.length) {
+      return "一度に取得できるキャストさんは3名までとなっています";
+    }
     const expireTime = localStorage.getItem("expireTime");
     if (expireTime) {
       return `リクエストいただきありがとうございます。\n次の制限解除時刻は\n${dayjs(
@@ -35,9 +40,8 @@ function judgeEnableState(isEnable: boolean, requestIds: string[]): string {
   }
   if (requestIds.length === 0) {
     return "チケット情報を取得するキャストさんを\n3名まで選択してください";
-  } else {
-    return "チケット情報を取得する";
   }
+  return "チケット情報を取得する";
 }
 
 function App() {
@@ -48,6 +52,9 @@ function App() {
     const expireTime = localStorage.getItem("expireTime");
     if (expireTime === null || expireTime === undefined) {
       setEnableFlag(true);
+    }
+    if (3 < requestIds.length) {
+      setEnableFlag(false);
     }
     if (expireTime && isNaN(+expireTime)) {
       setEnableFlag(false);
@@ -61,7 +68,19 @@ function App() {
   });
   return (
     <div className="App">
-      <header className="App-header">ユメグラ非公式チケット情報サイト</header>
+      <header
+        className="App-header"
+        style={{
+          background: `linear-gradient(150deg, rgba(59, 196,241, 0.8), rgba(202,79,146,0.8)), url(${bg})`,
+        }}
+      >
+        <div style={{ marginLeft: 100, marginTop: -150 }}>
+          Unofficial Ticket Info
+        </div>
+        <div style={{ marginLeft: 100, marginBottom: 200, fontSize: 25 }}>
+          ユメノグラフィア所属キャストさんのチケット関連ツイートを取得する非公式サイト
+        </div>
+      </header>
       <div
         style={{
           textAlign: "left",
@@ -138,8 +157,7 @@ function App() {
           marginLeft: 200,
           fontFamily: "a-otf-gothic-bbb-pr6n, sans-serif",
           fontWeight: 400,
-          fontStyle: "normal",
-          fontSize: 18,
+          fontStyle: "normal"
         }}
       >
         {castInfo.map((data) => {
@@ -198,7 +216,8 @@ function App() {
             {judgeEnableState(isEnable, requestIds)}
           </Button>
         ) : (
-          <Button variant="secondary"
+          <Button
+            variant="secondary"
             disabled={requestIds.length === 0 || isEnable === false}
             onClick={async () =>
               await fetchTweet(requestIds, setTweetObject, setId)
