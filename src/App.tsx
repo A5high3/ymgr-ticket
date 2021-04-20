@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { castInfo } from "./consts/castInfo";
 import { Button } from "react-bootstrap";
 import "./App.css";
 import "./Cast.css";
 import "./Choose.css";
-import bg from "./assets/bg.png";
 import axios from "axios";
 import dayjs from "dayjs";
-import { request } from "node:http";
+import { HeroHeader } from "./components/Header";
+import { About } from "./components/About";
+import { CastButtons } from "./components/CastButtons";
+import { GradationSquere } from "./components/GradSquere";
+import { TweetsResults } from "./components/TweetsResult";
+import { SectionHeader } from "./components/SectionHeader"
 
 export interface Response {
   tweets: {
@@ -48,6 +51,7 @@ function App() {
   const [requestIds, setId] = useState([] as string[]);
   const [castData, setTweetObject] = useState([] as Response[]);
   const [isEnable, setEnableFlag] = useState(true);
+  const [squereInitial] = useState(true);
   useEffect(() => {
     const expireTime = localStorage.getItem("expireTime");
     if (expireTime === null || expireTime === undefined) {
@@ -66,144 +70,38 @@ function App() {
       setEnableFlag(true);
     }
   });
+  useEffect(() => {
+    console.log("ykmt!!!!");
+  }, [squereInitial]);
   return (
     <div className="App">
-      <header
-        className="App-header"
-        style={{
-          background: `linear-gradient(150deg, rgba(59, 196,241, 0.8), rgba(202,79,146,0.8)), url(${bg})`,
-        }}
-      >
-        <div style={{ marginLeft: 100, marginTop: -150 }}>
-          Unofficial Ticket Info
-        </div>
-        <div style={{ marginLeft: 100, marginBottom: 200, fontSize: 25 }}>
-          ユメノグラフィア所属キャストさんのチケット関連ツイートを取得する非公式サイト
-        </div>
-      </header>
-      <div
-        style={{
-          textAlign: "left",
-          marginLeft: 200,
-          marginTop: 50,
-          marginBottom: 50,
-        }}
-      >
-        <div
-          style={{
-            fontSize: 40,
-            fontFamily: "a-otf-midashi-go-mb31-pr6n, sans-serif",
-            fontWeight: 600,
-            fontStyle: "normal",
-          }}
-        >
-          ABOUT
-        </div>
-        <br />
-        <div
-          style={{
-            fontFamily: "a-otf-gothic-bbb-pr6n, sans-serif",
-            fontWeight: 400,
-            fontStyle: "normal",
-            fontSize: 18,
-          }}
-        >
-          <div>
-            このサイトはユメノグラフィア所属キャスト様のツイッターアカウントのツイートを取得し、
-            <br />
-            チケットについて言及されているツイートのみを抜粋するwebサイトです。
-            <br />
-            また、公式とは一切関係のない非公式での製作・運営となります。
-            <br />
-            <br />
-          </div>
-          <div>
-            <div style={{ paddingBottom: 10 }}>
-              当サイトがチケットを取得する条件は下記の通りとなります。
-              <br />
-            </div>
-            <div style={{ paddingLeft: 10, paddingBottom: 10 }}>
-              - 2021年4月15日現在、在籍されているキャスト様
-              <br />
-              - キャスト様の最新のツイート100件(※リプライ・リツイートは除く)から
-              <br />
-              「チケット, チケ, ﾁｹｯﾄ, ﾁｹ」の単語でフィルタリングしたもの
-            </div>
-            <br />
-          </div>
-          ユメノグラフィア所属キャスト様のツイートを取得するにあたって下記の制限を設けています。
-          <br />
-          ツイート取得制限については下記の通りとなります。
-          <br />
-          <div style={{ paddingLeft: 10, paddingBottom: 10 }}>
-            -
-            一度のリクエストで1人以上、最大3名までのキャスト様のツイートまで取得することができる
-            <br />
-            -
-            一度ツイート取得した後は、30分間は再度ツイート取得することができない
-            <br />
-          </div>
-          以上となります。
-          <br />
-          これらの制限はサーバーへの予期せぬ負荷を抑制する意図として設けております。
-          <br />
-          実際の負荷を確認し、予告なくこれらの制限を改定・撤廃する場合があります。ご了承ください。
-          <br />
-        </div>
+      <HeroHeader />
+      <About />
+      <CastButtons requestIds={requestIds} setId={setId} />
+      <div style={{ position: "relative", marginLeft: 100, zIndex: -1 }}>
+        <GradationSquere squere={squereInitial} />
+        <GradationSquere squere={squereInitial} />
+        <GradationSquere squere={squereInitial} />
+        <GradationSquere squere={squereInitial} />
+        <GradationSquere squere={squereInitial} />
+        <GradationSquere squere={squereInitial} />
+        <GradationSquere squere={squereInitial} />
       </div>
-      <div
-        style={{
-          marginRight: 300,
-          marginLeft: 200,
-          fontFamily: "a-otf-gothic-bbb-pr6n, sans-serif",
-          fontWeight: 400,
-          fontStyle: "normal"
-        }}
-      >
-        {castInfo.map((data) => {
-          if (!requestIds.includes(data.castId)) {
-            return (
-              <a
-                className={`btn effect${data.castId}`}
-                onClick={() => {
-                  let arr;
-                  if (requestIds.includes(data.castId)) {
-                    arr = requestIds.filter((id) => id !== data.castId);
-                  } else {
-                    arr = [...requestIds, data.castId];
-                  }
-                  setId(arr);
-                }}
-              >
-                {data.name}
-              </a>
-            );
-          } else {
-            return (
-              <a
-                className={`btn-choose${data.castId} effect-choose${data.castId}`}
-                onClick={() => {
-                  let arr;
-                  if (requestIds.includes(data.castId)) {
-                    arr = requestIds.filter((id) => id !== data.castId);
-                  } else {
-                    arr = [...requestIds, data.castId];
-                  }
-                  setId(arr);
-                }}
-              >
-                {data.name}
-              </a>
-            );
-          }
-        })}
+      <div style={{ position: "relative", marginLeft: 1200, zIndex: -1 }}>
+        <GradationSquere squere={squereInitial} />
+        <GradationSquere squere={squereInitial} />
+        <GradationSquere squere={squereInitial} />
+        <GradationSquere squere={squereInitial} />
+        <GradationSquere squere={squereInitial} />
+        <GradationSquere squere={squereInitial} />
+        <GradationSquere squere={squereInitial} />
       </div>
       <div
         style={{
           marginRight: 300,
           marginLeft: 300,
           marginTop: 100,
-          marginBottom: 200,
+          marginBottom: 100,
         }}
       >
         {requestIds.length !== 0 && isEnable ? (
@@ -228,40 +126,11 @@ function App() {
           </Button>
         )}
       </div>
-      {castData && (
+      {castData.length !== 0 && (
         <div>
+          <SectionHeader title={"TWEETS"}/>
           {castData.map((cast) => {
-            return (
-              <div style={{ display: "inline-grid", marginRight: 100 }}>
-                <div>
-                  <img src={cast.cast.profile_image_url} />
-                  <div style={{ fontSize: 20, paddingBottom: 20 }}>
-                    {cast.cast.name}
-                  </div>
-                </div>
-                {cast.tweets.map((tweet) => (
-                  <div style={{ width: 340, marginBottom: 30, fontSize: 16 }}>
-                    {tweet.text}
-                    <br />
-                    <br />
-                    ツイート日時:{" "}
-                    {dayjs(tweet.created_at).format(
-                      "YYYY[年]MM[月]DD[日] HH[時]mm[分]ss[秒]"
-                    )}
-                    <div
-                      style={{
-                        marginTop: 20,
-                        borderTop: "1px",
-                        borderLeft: "1px",
-                        borderRight: "1px",
-                        borderColor: "#dbdbdb",
-                        borderStyle: "solid",
-                      }}
-                    />
-                  </div>
-                ))}
-              </div>
-            );
+            return <TweetsResults castInfo={cast} />;
           })}
         </div>
       )}

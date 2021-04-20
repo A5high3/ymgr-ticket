@@ -1,226 +1,228 @@
-a.btn{
-    display: inline-flex;
-    width: 180px;
-    height: 70px;
-    margin: 30px 30px 20px;
-    padding: 15px 10px;
-    border: 1px solid #000;
-    background: transparent;
-    color: #000;
-    vertical-align: middle;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    line-height: 1;
-    transition: .3s;
-    border-bottom: solid 4px #000
-  }
-  a.btn:active {
-    /*ボタンを押したとき*/
-    -webkit-transform: translateY(4px);
-    transform: translateY(4px); 
-    border-bottom: none; 
-  }
+a.btn {
+  display: inline-flex;
+  width: 200px;
+  height: 80px;
+  margin: 30px 30px 20px;
+  padding: 15px 10px;
+  font-size: 18px;
+  border: 1px solid #000;
+  background: white;
+  color: #000;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+  border-bottom: solid 4px #000;
+  z-index: 1;
+  position: relative;
+}
+a.btn:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}
 
+a.effect2:hover {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(255, 172, 149);
+  color: #000;
+  border-bottom: solid 4px #000;
+}
+a.effect3:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(162, 255, 250);
+  color: #000;
+  border-bottom: solid 4px #000;
+}
+a.effect4:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(138, 0, 34);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect5:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(255, 195, 255);
+  color: #000;
+  border-bottom: solid 4px #000;
+}
+a.effect9:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(255, 232, 80);
+  color: #000;
+  border-bottom: solid 4px #000;
+}
+a.effect10:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(34, 216, 206);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect11:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(153, 167, 180);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect12:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(112, 88, 163);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect13:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 51);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect14:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(255, 105, 151);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
 
-  a.effect2:hover {
-    border: 1px solid rgba(0,0,0,.1);
-    background: rgba(255,172, 149,.9);
-    color: #000;
-    border-bottom: solid 4px #000
-  }
-  a.effect3:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(162,255,250, .9);
-    color: #000;
-    border-bottom: solid 4px #000
-  }
-  a.effect4:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(138,0,34,.9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect5:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(255,195,255, .9);
-    color: #000;
-    border-bottom: solid 4px #000
-  }
-  a.effect9:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(255,232,80, .9);
-    color: #000;
-    border-bottom: solid 4px #000
-  } 
-  a.effect10:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(34,216,206, .9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect11:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(153,167,180, .9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect12:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(112,88,163, .9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect13:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(0,0,51, .9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect14:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(255,105,151, .9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-
-  a.effect15:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(245,216,146, .9);
-    color: #000;
-    border-bottom: solid 4px #000
-  }
-  a.effect16:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(255,10,133, .9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect17:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(177,132,153, .9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect18:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(112,189,255, .9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect19:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(241,131,0, .9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect20:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(195,216,37, .9);
-    color: #000;
-    border-bottom: solid 4px #000
-  }
-  a.effect21:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(154, 13, 124, .9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect22:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(104, 169, 207,.9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect23:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(255, 205, 51,.9);
-    color: #000;
-    border-bottom: solid 4px #000
-  }
-  a.effect24:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(148, 215, 199,.9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect25:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(255, 230, 244,.9);
-    color: #000;
-    border-bottom: solid 4px #000
-  }
-  a.effect26:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(237, 66, 255,.9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect27:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(197, 237, 253,.9);
-    color: #000;
-    border-bottom: solid 4px #000
-  }
-  a.effect28:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(199, 79, 48,.9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect29:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(253, 245, 230,.9);
-    color: #000;
-    border-bottom: solid 4px #000
-  }
-  a.effect30:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(0, 191, 255,.9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect31:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(137, 201, 151,.9);
-    color: #000;
-    border-bottom: solid 4px #000
-  }
-  a.effect32:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(255, 201, 147,.9);
-    color: #000;
-    border-bottom: solid 4px #000
-  }
-  a.effect33:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(179, 34, 34,.9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect34:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(192, 168, 132,.9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
-  a.effect35:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(250, 192, 217,.9);
-    color: #000;
-    border-bottom: solid 4px #000
-  }
-  a.effect36:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(255, 250, 150,.9);
-    color: #000;
-    border-bottom: solid 4px #000
-  }
-  a.effect37:hover {
-    border: 1px solid rgba(0,0,0,.9);
-    background: rgba(42, 61, 32,.9);
-    color: #fff;
-    border-bottom: solid 4px #000
-  }
+a.effect15:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(245, 216, 146);
+  color: #000;
+  border-bottom: solid 4px #000;
+}
+a.effect16:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(255, 10, 133);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect17:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(177, 132, 153);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect18:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(112, 189, 255);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect19:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(241, 131, 0);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect20:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(195, 216, 37);
+  color: #000;
+  border-bottom: solid 4px #000;
+}
+a.effect21:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(154, 13, 124);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect22:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(104, 169, 207);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect23:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(255, 205, 51);
+  color: #000;
+  border-bottom: solid 4px #000;
+}
+a.effect24:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(148, 215, 199);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect25:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(255, 230, 244, 0.9);
+  color: #000;
+  border-bottom: solid 4px #000;
+}
+a.effect26:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(237, 66, 255);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect27:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(197, 237, 253);
+  color: #000;
+  border-bottom: solid 4px #000;
+}
+a.effect28:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(199, 79, 48);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect29:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(253, 245, 230);
+  color: #000;
+  border-bottom: solid 4px #000;
+}
+a.effect30:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(0, 191, 255);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect31:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(137, 201, 151);
+  color: #000;
+  border-bottom: solid 4px #000;
+}
+a.effect32:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(255, 201, 147);
+  color: #000;
+  border-bottom: solid 4px #000;
+}
+a.effect33:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(179, 34, 34);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect34:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(192, 168, 132);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
+a.effect35:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(250, 192, 217);
+  color: #000;
+  border-bottom: solid 4px #000;
+}
+a.effect36:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(255, 250, 150);
+  color: #000;
+  border-bottom: solid 4px #000;
+}
+a.effect37:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(42, 61, 32);
+  color: #fff;
+  border-bottom: solid 4px #000;
+}
