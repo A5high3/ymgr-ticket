@@ -24,7 +24,7 @@ export const castInfo = [
         castId: "10",
     },
     {
-        name: "御影　みゆ",
+        name: "観影　みゆ",
         castId: "11",
     },
     {
