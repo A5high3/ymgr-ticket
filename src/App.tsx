@@ -7,10 +7,11 @@ import axios from "axios";
 import dayjs from "dayjs";
 import { HeroHeader } from "./components/Header";
 import { About } from "./components/About";
+import { Notice } from "./components/Notice"
 import { CastButtons } from "./components/CastButtons";
 import { GradationSquere } from "./components/GradSquere";
 import { TweetsResults } from "./components/TweetsResult";
-import { SectionHeader } from "./components/SectionHeader"
+import { SectionHeader } from "./components/SectionHeader";
 
 export interface Response {
   tweets: {
@@ -70,15 +71,15 @@ function App() {
       setEnableFlag(true);
     }
   });
-  useEffect(() => {
-    console.log("ykmt!!!!");
-  }, [squereInitial]);
+  useEffect(() => {}, [squereInitial]);
   return (
     <div className="App">
       <HeroHeader />
       <About />
+      
       <CastButtons requestIds={requestIds} setId={setId} />
-      <div style={{ position: "relative", marginLeft: 100, zIndex: -1 }}>
+      <div style={{ position: "relative", marginLeft: "5vw", zIndex: -1 }}>
+        <GradationSquere squere={squereInitial} />
         <GradationSquere squere={squereInitial} />
         <GradationSquere squere={squereInitial} />
         <GradationSquere squere={squereInitial} />
@@ -87,7 +88,8 @@ function App() {
         <GradationSquere squere={squereInitial} />
         <GradationSquere squere={squereInitial} />
       </div>
-      <div style={{ position: "relative", marginLeft: 1200, zIndex: -1 }}>
+      <div style={{ position: "relative", paddingLeft: "75vw", zIndex: -1 }}>
+        <GradationSquere squere={squereInitial} />
         <GradationSquere squere={squereInitial} />
         <GradationSquere squere={squereInitial} />
         <GradationSquere squere={squereInitial} />
@@ -128,12 +130,13 @@ function App() {
       </div>
       {castData.length !== 0 && (
         <div>
-          <SectionHeader title={"TWEETS"}/>
+          <SectionHeader title={"TWEETS"} />
           {castData.map((cast) => {
             return <TweetsResults castInfo={cast} />;
           })}
         </div>
       )}
+      <Notice />
     </div>
   );
 }
