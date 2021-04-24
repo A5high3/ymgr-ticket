@@ -146,13 +146,10 @@ async function fetchTweet(
   setTweetObject: React.Dispatch<React.SetStateAction<Response[]>>,
   setId: React.Dispatch<React.SetStateAction<string[]>>
 ) {
-  console.log("request", requestIds);
-  console.log("request", JSON.stringify({ requestIds: requestIds }));
   const response = await axios.post(
     "https://1t9s9wq59b.execute-api.us-east-1.amazonaws.com/develop/ticket",
     JSON.stringify({ requestIds: requestIds })
   );
-  console.log("api", response);
   setTweetObject(response.data.content);
   const epocSec = dayjs(new Date()).unix();
   localStorage.setItem("expireTime", (epocSec + 1800).toString());
