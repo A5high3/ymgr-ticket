@@ -7,11 +7,11 @@ import axios from "axios";
 import dayjs from "dayjs";
 import { HeroHeader } from "./components/Header";
 import { About } from "./components/About";
-import { Notice } from "./components/Notice"
 import { CastButtons } from "./components/CastButtons";
 import { GradationSquere } from "./components/GradSquere";
 import { TweetsResults } from "./components/TweetsResult";
 import { SectionHeader } from "./components/SectionHeader";
+import { Links } from "./components/Links";
 
 export interface Response {
   tweets: {
@@ -76,7 +76,7 @@ function App() {
     <div className="App">
       <HeroHeader />
       <About />
-      
+
       <CastButtons requestIds={requestIds} setId={setId} />
       <div style={{ position: "relative", marginLeft: "5vw", zIndex: -1 }}>
         <GradationSquere squere={squereInitial} />
@@ -136,7 +136,7 @@ function App() {
           })}
         </div>
       )}
-      <Notice />
+      <Links />
     </div>
   );
 }

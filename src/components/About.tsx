@@ -57,6 +57,13 @@ export function About() {
               また、公式とは一切関係のない非公式個人での製作・運営となります。
               <br />
               <br />
+              ご連絡・ご要望がある場合はお手数をお掛けしますが
+              <br />
+              ・Twitter: @7ashgray7 へのリプライまたはダイレクトメッセージ
+              <br />
+              ・yumgra.un.official.ticket.info@gmail.com 宛へのメール
+              <br/>
+              までよろしくお願いいたします。
             </div>
             <FilteringCondition />
             <FetchRestriction />
