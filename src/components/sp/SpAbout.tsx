@@ -1,11 +1,13 @@
 import React from "react";
-import "../css/App.css";
-import { FilteringCondition } from "./FilteringCondition";
-import { FetchRestriction } from "./FetchRestriction";
+import "../../css/SpApp.css";
+import { SpFilteringCondition } from "./SpFilteringCondition";
+import { SpFetchRestriction } from "./SpFetchRestriction";
+import { SpSectionHeader } from "./SpSectionHeader";
 import { Row, Col } from "react-bootstrap";
-import { SectionHeader } from "./SectionHeader";
 
-export function About() {
+
+
+export function SpAbout() {
   const Animation = (
     <style>
       {`
@@ -30,13 +32,14 @@ export function About() {
   return (
     <Row style={{padding: 0, margin: 0}}>
       <Col style={{padding:0, margin: 0}}>
-        <SectionHeader title={"ABOUT"} />
+        <SpSectionHeader title={"ABOUT"} />
         <div
           style={{
             position: "relative",
             textAlign: "left",
-            marginLeft: 130,
             marginBottom: 50,
+            marginLeft: 15,
+            marginRight: 15,
           }}
         >
           {Animation}
@@ -44,29 +47,27 @@ export function About() {
           <div
             style={{
               fontFamily: "a-otf-gothic-bbb-pr6n, sans-serif",
-              fontWeight: 400,
+              fontWeight: 20,
               fontStyle: "normal",
-              fontSize: 20,
+              fontSize: 15,
             }}
           >
             <div>
               このサイトはユメノグラフィア所属キャスト様のツイッターアカウントのツイートを取得し、
-              <br />
               チケットについて言及されているツイートのみを抜粋するwebサイトです。
+              <br />
               <br />
               また、公式とは一切関係のない非公式個人での製作・運営となります。
               <br />
               <br />
-              ご連絡・ご要望がある場合はお手数をお掛けしますが
+              ご連絡・ご要望がある場合はお手数をお掛けしますが下記連絡先までご連絡のほどよろしくお願いいたします。
               <br />
               ・Twitter: @7ashgray7 へのリプライまたはダイレクトメッセージ
               <br />
               ・yumgra.un.official.ticket.info@gmail.com 宛へのメール
-              <br/>
-              までよろしくお願いいたします。
             </div>
-            <FilteringCondition />
-            <FetchRestriction />
+            <SpFilteringCondition />
+            <SpFetchRestriction />
           </div>
         </div>
       </Col>

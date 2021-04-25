@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "react-bootstrap";
-import "./css/App.css";
-import "./css/Cast.css";
-import "./css/Choose.css";
+import "./css/SpApp.css";
+import "./css/SpCast.css";
+import "./css/SpChoose.css";
 import axios from "axios";
 import dayjs from "dayjs";
 import { HeroHeader } from "./components/Header";
-import { About } from "./components/About";
-import { CastButtons } from "./components/CastButtons";
-import { GradationSquere } from "./components/GradSquere";
-import { TweetsResults } from "./components/TweetsResult";
-import { SectionHeader } from "./components/SectionHeader";
-import { Links } from "./components/Links";
+import { SpAbout } from "./components/sp/SpAbout";
+import { SpCastButtons } from "./components/sp/SpCastButtons";
+import { SpGradationSquere } from "./components/sp/SpGradSquere";
+import { SpTweetsResults } from "./components/sp/SpTweetsResult";
+import { SpSectionHeader } from "./components/sp/SpSectionHeader";
+import { SpLinks } from "./components/sp/SpLinks";
 
 export interface Response {
   tweets: {
@@ -48,7 +48,7 @@ function judgeEnableState(isEnable: boolean, requestIds: string[]): string {
   return "チケット情報を取得する";
 }
 
-function App() {
+function SpApp() {
   const [requestIds, setId] = useState([] as string[]);
   const [castData, setTweetObject] = useState([] as Response[]);
   const [isEnable, setEnableFlag] = useState(true);
@@ -73,36 +73,28 @@ function App() {
   });
   useEffect(() => {}, [squereInitial]);
   return (
-    <div className="App">
+    <div className="SpApp">
       <HeroHeader />
-      <About />
+      <SpAbout />
 
-      <CastButtons requestIds={requestIds} setId={setId} />
+      <SpCastButtons requestIds={requestIds} setId={setId} />
       <div style={{ position: "relative", marginLeft: "5vw", zIndex: -1 }}>
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
+        <SpGradationSquere squere={squereInitial} />
+        <SpGradationSquere squere={squereInitial} />
+        <SpGradationSquere squere={squereInitial} />
+        <SpGradationSquere squere={squereInitial} />
       </div>
-      <div style={{ position: "relative", paddingLeft: "75vw", zIndex: -1 }}>
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
+      <div style={{ position: "relative", paddingLeft: "50vw", zIndex: -1 }}>
+        <SpGradationSquere squere={squereInitial} />
+        <SpGradationSquere squere={squereInitial} />
+        <SpGradationSquere squere={squereInitial} />
+        <SpGradationSquere squere={squereInitial} />
       </div>
       <div
         style={{
-          marginRight: 300,
-          marginLeft: 300,
-          marginTop: 100,
+          marginRight: 20,
+          marginLeft: 20,
+          marginTop: 50,
           marginBottom: 100,
         }}
       >
@@ -111,7 +103,7 @@ function App() {
             onClick={async () =>
               await fetchTweet(requestIds, setTweetObject, setId)
             }
-            style={{ width: 400, whiteSpace: "pre-wrap" }}
+            style={{ width: 200, whiteSpace: "pre-wrap" }}
           >
             {judgeEnableState(isEnable, requestIds)}
           </Button>
@@ -122,7 +114,7 @@ function App() {
             onClick={async () =>
               await fetchTweet(requestIds, setTweetObject, setId)
             }
-            style={{ width: 400, whiteSpace: "pre-wrap" }}
+            style={{ width: 200, whiteSpace: "pre-wrap" }}
           >
             {judgeEnableState(isEnable, requestIds)}
           </Button>
@@ -130,13 +122,13 @@ function App() {
       </div>
       {castData.length !== 0 && (
         <div>
-          <SectionHeader title={"TWEETS"} />
+          <SpSectionHeader title={"TWEETS"} />
           {castData.map((cast) => {
-            return <TweetsResults castInfo={cast} />;
+            return <SpTweetsResults castInfo={cast} />;
           })}
         </div>
       )}
-      <Links />
+      <SpLinks />
     </div>
   );
 }
@@ -157,4 +149,4 @@ async function fetchTweet(
   return;
 }
 
-export default App;
+export default SpApp;

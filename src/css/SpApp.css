@@ -1,0 +1,65 @@
+.SpApp {
+    text-align: center;
+    overflow: hidden;
+    color: #505050;
+    /* font-family: "a-otf-gothic-bbb-pr6n, sans-serif";
+    font-weight: 400;
+    font-style: "normal"; */
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+    .App-squere {
+      animation: App-logo-spin infinite 10s linear;
+    }
+  }
+  
+  .App-header {
+    /* background: linear-gradient(150deg, #3bc4f1, #ca4f92); */
+    background: linear-gradient(150deg, rgba(59, 196,241, 0.8), rgba(202,79,146,0.8));
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    font-size: calc(30px + 4vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .gradBox {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border: 4px solid #c21500;
+    border-image: linear-gradient(to right, rgba(59, 196, 241) 0%, rgba(202, 79, 146) 100%);
+    border-image-slice: 1;
+    z-index: -1;
+  }
+  
+  @keyframes App-logo-spin {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 100;   
+    }
+    90% {
+      opacity: 100;
+    }
+    100% {
+      transform: translateY(-300px) rotate(360deg);
+      opacity: 0;
+    }
+  }
