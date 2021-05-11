@@ -329,4 +329,54 @@ export const castInfo = [
             tickets: "https://www.yumenographia.com/tickets/?casts=37"
         }
     },
+    {
+        name: "百瀬 あさひ",
+        castId: "38",
+        themeColor: "rgba(107, 142, 35)",
+        links: {
+            twitter: "https://twitter.com/Asahi_M_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=38"
+        }
+    },
+    {
+        name: "リナ・リア",
+        castId: "39",
+        themeColor: "rgba(150, 0, 67)",
+        links: {
+            twitter: "https://twitter.com/Leah_R_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=39"
+        }
+    },
+    {
+        name: "乙花 クラリス",
+        castId: "40",
+        themeColor: "rgba(227, 247, 205)",
+        links: {
+            twitter: "https://twitter.com/Kurarisu_O_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=40"
+        }
+    },
+    {
+        name: "望月 らて",
+        castId: "41",
+        themeColor: "rgba(219, 255, 163)",
+        links: {
+            twitter: "https://twitter.com/Latte_M_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=41"
+        }
+    },
+    {
+        name: "シェナ・レクター",
+        castId: "42",
+        themeColor: "rgba(201, 23, 30)",
+        links: {
+            twitter: "https://twitter.com/Shiena_l_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=42"
+        }
+    },
 ]

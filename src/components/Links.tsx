@@ -38,13 +38,13 @@ export function Links() {
             <div style={{ fontSize: 20 }}>{cast.name}</div>
             <div style={{ paddingLeft: 20 }}>
               <div>
-                <a href={cast.links.tickets}>チケットページ</a>
+                <a href={cast.links.tickets} target="_blank" rel="noreferrer noopener">チケットページ</a>
               </div>
               <div>
-                <a href={cast.links.twitter}>Twitter</a>
+                <a href={cast.links.twitter} target="_blank" rel="noreferrer noopener">Twitter</a>
               </div>
               <div>
-                <a href={cast.links.youtube}>Youtube</a>
+                <a href={cast.links.youtube} target="_blank" rel="noreferrer noopener">Youtube</a>
               </div>
             </div>
           </div>

@@ -225,3 +225,33 @@ a.effect37:hover {
   color: #fff;
   border-bottom: solid 4px #505050;
 }
+a.effect38:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(107, 142, 35);
+  color: #fff;
+  border-bottom: solid 4px #505050;
+}
+a.effect39:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(150, 0, 67);
+  color: #fff;
+  border-bottom: solid 4px #505050;
+}
+a.effect40:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(227, 247, 205);
+  color: #000;
+  border-bottom: solid 4px #505050;
+}
+a.effect41:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(219, 255, 163);
+  color: #000;
+  border-bottom: solid 4px #505050;
+}
+a.effect42:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(201, 23, 30);
+  color: #fff;
+  border-bottom: solid 4px #505050;
+}

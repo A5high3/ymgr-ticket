@@ -26,7 +26,7 @@ export function SpCastButtons({requestIds, setId}: Props) {
           if (!requestIds.includes(data.castId)) {
             return (
               <a
-                className={`spbtn effect${data.castId}`}
+                className={`spbtn speffect${data.castId}`}
                 onClick={() => {
                   let arr;
                   if (requestIds.includes(data.castId)) {

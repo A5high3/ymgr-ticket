@@ -17,6 +17,7 @@ export function TweetsResults({castInfo}: any) {
           {dayjs(tweet.created_at).format(
             "YYYY[年]MM[月]DD[日] HH[時]mm[分]ss[秒]"
           )}
+          <a href={`https://twitter.com/${castInfo.cast.username}/status/${tweet.id}`} target="_blank" rel="noreferrer noopener">ツイートリンク</a>
           <div
             style={{
               marginTop: 20,

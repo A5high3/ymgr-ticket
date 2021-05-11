@@ -35,9 +35,9 @@ export function FetchRestriction() {
         ・
         一度のリクエストで1人以上、最大3名までのキャスト様のツイートを取得することができる
         <br />
-        <div style={{ paddingTop: 30 }}>
+        {/* <div style={{ paddingTop: 30 }}>
           ・一度ツイート取得した後は、30分間再度ツイート取得することができない
-        </div>
+        </div> */}
       </div>
       <br />
     </div>

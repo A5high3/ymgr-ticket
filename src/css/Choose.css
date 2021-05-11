@@ -657,3 +657,103 @@ a.btn-choose37 {
   line-height: 1;
   transition: 0.3s;
 }
+
+a.btn-choose38 {
+  display: inline-flex;
+  width: 200px;
+  height: 80px;
+  font-size: 18px;
+  margin: 30px 30px 20px;
+  padding: 15px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(107, 142, 35);
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+a.btn-choose39 {
+  display: inline-flex;
+  width: 200px;
+  height: 80px;
+  font-size: 18px;
+  margin: 30px 30px 20px;
+  padding: 15px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(150, 0, 67);
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+a.btn-choose40 {
+  display: inline-flex;
+  width: 200px;
+  height: 80px;
+  font-size: 18px;
+  margin: 30px 30px 20px;
+  padding: 15px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(227, 247, 205);
+  color: #000;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+a.btn-choose41 {
+  display: inline-flex;
+  width: 200px;
+  height: 80px;
+  font-size: 18px;
+  margin: 30px 30px 20px;
+  padding: 15px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(219, 255, 163);
+  color: #000;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+a.btn-choose42 {
+  display: inline-flex;
+  width: 200px;
+  height: 80px;
+  font-size: 18px;
+  margin: 30px 30px 20px;
+  padding: 15px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(201, 23, 30);
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
