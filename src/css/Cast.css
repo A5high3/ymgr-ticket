@@ -26,6 +26,13 @@ a.btn:active {
   border-bottom: none;
 }
 
+a.effect1:hover {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(76, 111, 217);
+  color: #fff;
+  border-bottom: solid 4px #505050;
+}
+
 a.effect2:hover {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(255, 172, 149);
@@ -253,5 +260,41 @@ a.effect42:hover {
   border: 1px solid rgba(0, 0, 0, 0.9);
   background: rgba(201, 23, 30);
   color: #fff;
+  border-bottom: solid 4px #505050;
+}
+a.effect44:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(255, 177, 205);
+  color: #000;
+  border-bottom: solid 4px #505050;
+}
+a.effect45:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(0, 109, 77);
+  color: #fff;
+  border-bottom: solid 4px #505050;
+}
+a.effect46:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(46, 46, 46);
+  color: #fff;
+  border-bottom: solid 4px #505050;
+}
+a.effect47:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(252, 232, 230);
+  color: #000;
+  border-bottom: solid 4px #505050;
+}
+a.effect48:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(255, 223, 184);
+  color: #000;
+  border-bottom: solid 4px #505050;
+}
+a.effect49:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(196, 247, 116);
+  color: #000;
   border-bottom: solid 4px #505050;
 }
