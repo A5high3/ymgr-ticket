@@ -144,7 +144,7 @@ async function fetchTweet(
   );
   setTweetObject(response.data.content);
   const epocSec = dayjs(new Date()).unix();
-  localStorage.setItem("expireTime", (epocSec + 1800).toString());
+  // localStorage.setItem("expireTime", (epocSec + 1800).toString());
   setId([]);
   return;
 }

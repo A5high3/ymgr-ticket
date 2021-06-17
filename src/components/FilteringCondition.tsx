@@ -32,7 +32,7 @@ export function FilteringCondition() {
           fontSize: 22,
         }}
       >
-        ・ 2021年4月25日現在、在籍されているキャスト様
+        ・ 2021年5月12日現在、在籍されているキャスト様
         <br />
         <div style={{ paddingTop: 30 }}>
           ・キャスト様の最新のツイート100件(※リプライ・リツイートは除く)から
