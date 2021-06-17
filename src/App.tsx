@@ -54,7 +54,7 @@ function App() {
   const [castData, setTweetObject] = useState([] as Response[]);
   const [isEnable, setEnableFlag] = useState(true);
   const [squereInitial] = useState(true);
-  const [isShowGraduated, setIsShowGraduated] = useState(false)
+  const [isShowGraduated, setIsShowGraduated] = useState(false);
   useEffect(() => {
     const expireTime = localStorage.getItem("expireTime");
     if (expireTime === null || expireTime === undefined) {
@@ -80,17 +80,19 @@ function App() {
       <About />
 
       <CastButtons requestIds={requestIds} setId={setId} isShowGraduated={isShowGraduated} />
-      <div style={{ position: "relative", marginLeft: "5vw", zIndex: -1 }}>
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
-        <GradationSquere squere={squereInitial} />
+      <div>
+        <GraduatedGradationSquere squere={squereInitial} isShowGraduated={isShowGraduated} setIsShowGraduated={setIsShowGraduated} />
+        <div style={{ position: "relative", marginLeft: "5vw", zIndex: -1 }}>
+          <GradationSquere squere={squereInitial} />
+          <GradationSquere squere={squereInitial} />
+          <GradationSquere squere={squereInitial} />
+          <GradationSquere squere={squereInitial} />
+          <GradationSquere squere={squereInitial} />
+          <GradationSquere squere={squereInitial} />
+          <GradationSquere squere={squereInitial} />
+          <GradationSquere squere={squereInitial} />
+        </div>
       </div>
-      <GraduatedGradationSquere squere={squereInitial} setIsShowGraduated={setIsShowGraduated} />
       <div style={{ position: "relative", paddingLeft: "75vw", zIndex: -1 }}>
         <GradationSquere squere={squereInitial} />
         <GradationSquere squere={squereInitial} />

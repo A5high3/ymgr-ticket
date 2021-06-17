@@ -6,7 +6,7 @@ function getRandomInt(min: number, max: number) {
   return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
 }
 
-export function GraduatedGradationSquere({ squere, setIsShowGraduated }: any) {
+export function GraduatedGradationSquere({ squere, isShowGraduated ,setIsShowGraduated }: any) {
   const [squereSize, setSquereSize] = useState(0);
   const [marginLeft3digit, set3digit] = useState(0);
   const [marginLeft2digit, set2digit] = useState(0);
@@ -47,11 +47,12 @@ export function GraduatedGradationSquere({ squere, setIsShowGraduated }: any) {
           animation: `spin infinite ${animationTime}s linear`,
         }}
         onClick={() => {
-          alert("卒業されたキャストさん表示をオンにしました")
-          setIsShowGraduated(true);
+          if (!isShowGraduated) {
+            alert("卒業されたキャストさん表示をオンにしました");
+            setIsShowGraduated(true);
+          }
         }}
-      >
-      </div>
+      ></div>
     </>
   );
 }
