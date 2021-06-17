@@ -37,6 +37,7 @@ export function About() {
             textAlign: "left",
             marginLeft: 130,
             marginBottom: 50,
+            zIndex: 2
           }}
         >
           {Animation}
