@@ -396,7 +396,7 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Moe_M_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=44"
+            tickets: "https://www.yumenographia.com/tickets/?casts=45"
         }
     },
     {
