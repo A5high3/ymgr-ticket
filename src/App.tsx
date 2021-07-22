@@ -152,7 +152,7 @@ async function fetchTweet(
   setId: React.Dispatch<React.SetStateAction<string[]>>
 ) {
   const response = await axios.post(
-    "https://1t9s9wq59b.execute-api.us-east-1.amazonaws.com/develop/ticket",
+    "https://a5c7e4s1s2.execute-api.us-east-1.amazonaws.com/prod/ticket",
     JSON.stringify({ requestIds: requestIds })
   );
   setTweetObject(response.data.content);
