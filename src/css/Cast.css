@@ -156,7 +156,7 @@ a.effect24:hover {
 }
 a.effect25:hover {
   border: 1px solid rgba(0, 0, 0, 0.9);
-  background: rgba(255, 230, 244, 0.9);
+  background: rgba(255, 230, 244);
   color: #505050;
   border-bottom: solid 4px #505050;
 }
@@ -295,6 +295,42 @@ a.effect48:hover {
 a.effect49:hover {
   border: 1px solid rgba(0, 0, 0, 0.9);
   background: rgba(196, 247, 116);
+  color: #000;
+  border-bottom: solid 4px #505050;
+}
+a.effect50:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(255, 215, 171);
+  color: #000;
+  border-bottom: solid 4px #505050;
+}
+a.effect51:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(73, 227, 190);
+  color: #000;
+  border-bottom: solid 4px #505050;
+}
+a.effect52:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(220, 188, 227);
+  color: #000;
+  border-bottom: solid 4px #505050;
+}
+a.effect53:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(10, 63, 148);
+  color: #fff;
+  border-bottom: solid 4px #505050;
+}
+a.effect54:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(143, 93, 150);
+  color: #fff;
+  border-bottom: solid 4px #505050;
+}
+a.effect55:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(246, 189, 255);
   color: #000;
   border-bottom: solid 4px #505050;
 }

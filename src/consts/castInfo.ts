@@ -295,7 +295,7 @@ export const castInfo = [
         themeColor: "rgba(192, 168, 132)",
         links: {
             twitter: "https://twitter.com/Michika_A_YG",
-            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            youtube: "https://www.youtube.com/channel/UCH8Ef-KxZcDY-17Db83LGJw",
             tickets: "https://www.yumenographia.com/tickets/?casts=34"
         }
     },
@@ -345,7 +345,7 @@ export const castInfo = [
         themeColor: "rgba(150, 0, 67)",
         links: {
             twitter: "https://twitter.com/Leah_R_YG",
-            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            youtube: "https://www.youtube.com/channel/UCaHXzDnB3oA2orV3F6w4gMQ",
             tickets: "https://www.yumenographia.com/tickets/?casts=39"
         }
     },
@@ -355,7 +355,7 @@ export const castInfo = [
         themeColor: "rgba(227, 247, 205)",
         links: {
             twitter: "https://twitter.com/Kurarisu_O_YG",
-            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            youtube: "https://www.youtube.com/channel/UChE8F6hjE5G6Frcps-0qiKw",
             tickets: "https://www.yumenographia.com/tickets/?casts=40"
         }
     },
@@ -375,7 +375,7 @@ export const castInfo = [
         themeColor: "rgba(201, 23, 30)",
         links: {
             twitter: "https://twitter.com/Shiena_l_YG",
-            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            youtube: "https://www.youtube.com/channel/UCbVaiamahjY7Hegjxd3MN5Q",
             tickets: "https://www.yumenographia.com/tickets/?casts=42"
         }
     },
@@ -437,6 +437,66 @@ export const castInfo = [
             twitter: "https://twitter.com/Muscat_S_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
             tickets: "https://www.yumenographia.com/tickets/?casts=49"
+        }
+    },
+    {
+        name: "ひととせ ククイ",
+        castId: "50",
+        themeColor: "rgba(255, 215, 171)",
+        links: {
+            twitter: "https://twitter.com/Kukui_H_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=50"
+        }
+    },
+    {
+        name: "鶴巳 すみれ",
+        castId: "51",
+        themeColor: "rgba(73, 227, 190)",
+        links: {
+            twitter: "https://twitter.com/Sumire_T_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=51"
+        }
+    },
+    {
+        name: "看木 メイ",
+        castId: "52",
+        themeColor: "rgba(220, 188, 227)",
+        links: {
+            twitter: "https://twitter.com/Mei_M_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=52"
+        }
+    },
+    {
+        name: "神音 アオハ",
+        castId: "53",
+        themeColor: "rgba(10, 63, 148)",
+        links: {
+            twitter: "https://twitter.com/Aoha_S_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=53"
+        }
+    },
+    {
+        name: "アイリス・サマーフィールド",
+        castId: "54",
+        themeColor: "rgba(143, 93, 150)",
+        links: {
+            twitter: "https://twitter.com/Iris_S_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=54"
+        }
+    },
+    {
+        name: "柚良 ひより",
+        castId: "55",
+        themeColor: "rgba(246, 189, 255)",
+        links: {
+            twitter: "https://twitter.com/Hiyori_Y_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=55"
         }
     },
 ]
@@ -748,7 +808,7 @@ export const castInfoIncludedGraduated = [
         themeColor: "rgba(192, 168, 132)",
         links: {
             twitter: "https://twitter.com/Michika_A_YG",
-            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            youtube: "https://www.youtube.com/channel/UCH8Ef-KxZcDY-17Db83LGJw",
             tickets: "https://www.yumenographia.com/tickets/?casts=34"
         }
     },
@@ -798,7 +858,7 @@ export const castInfoIncludedGraduated = [
         themeColor: "rgba(150, 0, 67)",
         links: {
             twitter: "https://twitter.com/Leah_R_YG",
-            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            youtube: "https://www.youtube.com/channel/UCaHXzDnB3oA2orV3F6w4gMQ",
             tickets: "https://www.yumenographia.com/tickets/?casts=39"
         }
     },
@@ -808,7 +868,7 @@ export const castInfoIncludedGraduated = [
         themeColor: "rgba(227, 247, 205)",
         links: {
             twitter: "https://twitter.com/Kurarisu_O_YG",
-            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            youtube: "https://www.youtube.com/channel/UChE8F6hjE5G6Frcps-0qiKw",
             tickets: "https://www.yumenographia.com/tickets/?casts=40"
         }
     },
@@ -828,7 +888,7 @@ export const castInfoIncludedGraduated = [
         themeColor: "rgba(201, 23, 30)",
         links: {
             twitter: "https://twitter.com/Shiena_l_YG",
-            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            youtube: "https://www.youtube.com/channel/UCbVaiamahjY7Hegjxd3MN5Q",
             tickets: "https://www.yumenographia.com/tickets/?casts=42"
         }
     },
@@ -890,6 +950,66 @@ export const castInfoIncludedGraduated = [
             twitter: "https://twitter.com/Muscat_S_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
             tickets: "https://www.yumenographia.com/tickets/?casts=49"
+        }
+    },
+    {
+        name: "ひととせ ククイ",
+        castId: "50",
+        themeColor: "rgba(255, 215, 171)",
+        links: {
+            twitter: "https://twitter.com/Kukui_H_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=50"
+        }
+    },
+    {
+        name: "鶴巳 すみれ",
+        castId: "51",
+        themeColor: "rgba(73, 227, 190)",
+        links: {
+            twitter: "https://twitter.com/Sumire_T_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=51"
+        }
+    },
+    {
+        name: "看木 メイ",
+        castId: "52",
+        themeColor: "rgba(220, 188, 227)",
+        links: {
+            twitter: "https://twitter.com/Mei_M_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=52"
+        }
+    },
+    {
+        name: "神音 アオハ",
+        castId: "53",
+        themeColor: "rgba(10, 63, 148)",
+        links: {
+            twitter: "https://twitter.com/Aoha_S_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=53"
+        }
+    },
+    {
+        name: "アイリス・サマーフィールド",
+        castId: "54",
+        themeColor: "rgba(143, 93, 150)",
+        links: {
+            twitter: "https://twitter.com/Iris_S_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=54"
+        }
+    },
+    {
+        name: "柚良 ひより",
+        castId: "55",
+        themeColor: "rgba(246, 189, 255)",
+        links: {
+            twitter: "https://twitter.com/Hiyori_Y_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=55"
         }
     },
 ]

@@ -149,7 +149,7 @@ a.speffect24:hover {
 }
 a.speffect25:hover {
   border: 1px solid rgba(0, 0, 0, 0.9);
-  background: rgba(255, 230, 244, 0.9);
+  background: rgba(255, 230, 244);
   color: #505050;
   border-bottom: solid 2px #505050;
 }
@@ -255,39 +255,75 @@ a.speffect42:hover {
   color: #fff;
   border-bottom: solid 2px #505050;
 }
-a.effect44:hover {
+a.speffect44:hover {
   border: 1px solid rgba(0, 0, 0, 0.9);
   background: rgba(255, 177, 205);
   color: #000;
   border-bottom: solid 2px #505050;
 }
-a.effect45:hover {
+a.speffect45:hover {
   border: 1px solid rgba(0, 0, 0, 0.9);
   background: rgba(0, 109, 77);
   color: #fff;
   border-bottom: solid 2px #505050;
 }
-a.effect46:hover {
+a.speffect46:hover {
   border: 1px solid rgba(0, 0, 0, 0.9);
   background: rgba(46, 46, 46);
   color: #fff;
   border-bottom: solid 2px #505050;
 }
-a.effect47:hover {
+a.speffect47:hover {
   border: 1px solid rgba(0, 0, 0, 0.9);
   background: rgba(252, 232, 230);
   color: #000;
   border-bottom: solid 2px #505050;
 }
-a.effect48:hover {
+a.speffect48:hover {
   border: 1px solid rgba(0, 0, 0, 0.9);
   background: rgba(255, 223, 184);
   color: #000;
   border-bottom: solid 2px #505050;
 }
-a.effect49:hover {
+a.speffect49:hover {
   border: 1px solid rgba(0, 0, 0, 0.9);
   background: rgba(196, 247, 116);
+  color: #000;
+  border-bottom: solid 2px #505050;
+}
+a.speffect50:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(255, 215, 171);
+  color: #000;
+  border-bottom: solid 2px #505050;
+}
+a.speffect51:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(73, 227, 190);
+  color: #000;
+  border-bottom: solid 2px #505050;
+}
+a.speffect52:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(220, 188, 227);
+  color: #000;
+  border-bottom: solid 2px #505050;
+}
+a.speffect53:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(10, 63, 148);
+  color: #fff;
+  border-bottom: solid 2px #505050;
+}
+a.speffect54:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(143, 93, 150);
+  color: #fff;
+  border-bottom: solid 2px #505050;
+}
+a.speffect55:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(246, 189, 255);
   color: #000;
   border-bottom: solid 2px #505050;
 }

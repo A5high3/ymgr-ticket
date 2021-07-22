@@ -876,3 +876,123 @@ a.sp-btn-choose49 {
   line-height: 1;
   transition: 0.3s;
 }
+
+a.sp-btn-choose50 {
+  display: inline-flex;
+  width: 100px;
+  height: 40px;
+  margin: 20px 20px 10px;
+  padding: 10px 8px;
+  font-size: 9px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(255, 215, 171);
+  color: #000;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+a.sp-btn-choose51 {
+  display: inline-flex;
+  width: 100px;
+  height: 40px;
+  margin: 20px 20px 10px;
+  padding: 10px 8px;
+  font-size: 9px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(73, 227, 190);
+  color: #000;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+a.sp-btn-choose52 {
+  display: inline-flex;
+  width: 100px;
+  height: 40px;
+  margin: 20px 20px 10px;
+  padding: 10px 8px;
+  font-size: 9px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(220, 188, 227);
+  color: #000;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+a.sp-btn-choose53 {
+  display: inline-flex;
+  width: 100px;
+  height: 40px;
+  margin: 20px 20px 10px;
+  padding: 10px 8px;
+  font-size: 9px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(10, 63, 148);
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+a.sp-btn-choose54 {
+  display: inline-flex;
+  width: 100px;
+  height: 40px;
+  margin: 20px 20px 10px;
+  padding: 10px 8px;
+  font-size: 9px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(143, 93, 150);
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+a.sp-btn-choose55 {
+  display: inline-flex;
+  width: 100px;
+  height: 40px;
+  margin: 20px 20px 10px;
+  padding: 10px 8px;
+  font-size: 9px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(246, 189, 255);
+  color: #000;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}

@@ -48,7 +48,7 @@ export function GraduatedGradationSquere({ squere, isShowGraduated ,setIsShowGra
         }}
         onClick={() => {
           if (!isShowGraduated) {
-            alert("卒業されたキャストさん表示をオンにしました");
+            alert("卒業されたキャスト様表示をオンにしました");
             setIsShowGraduated(true);
           }
         }}
