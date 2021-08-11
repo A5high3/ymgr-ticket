@@ -46,7 +46,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/coco_h_yg",
             youtube: "https://www.youtube.com/channel/UCTdqUU98050254KJrglvRpw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=9"
+            tickets: "https://www.yumenographia.com/tickets/?casts=9",
+            summerNotification: "https://twitter.com/Coco_H_YG/status/1423496925886783491"
         }
     },
     {
@@ -66,7 +67,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/miyu_m_yg",
             youtube: "https://www.youtube.com/channel/UCyZZHHbrQm6TTq-OCw1lm1Q",
-            tickets: "https://www.yumenographia.com/tickets/?casts=11"
+            tickets: "https://www.yumenographia.com/tickets/?casts=11",
+            summerNotification: "https://twitter.com/Miyu_M_YG/status/1423861637254041602"
         }
     },
     {
@@ -116,7 +118,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/reeka_yg",
             youtube: "https://www.youtube.com/channel/UCj2OT0HavdPpe_QMeYSzlDQ",
-            tickets: "https://www.yumenographia.com/tickets/?casts=16"
+            tickets: "https://www.yumenographia.com/tickets/?casts=16",
+            summerNotification: "https://twitter.com/Reeka_YG/status/1424332128657973248"
         }
     },
     {
@@ -166,7 +169,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/meteor_yg",
             youtube: "https://www.youtube.com/channel/UCY_bDOGjQA3fXmgIqruQAAg",
-            tickets: "https://www.yumenographia.com/tickets/?casts=21"
+            tickets: "https://www.yumenographia.com/tickets/?casts=21",
+            summerNotification: "https://twitter.com/Meteor_YG/status/1424340157625368576"
         }
     },
     {
@@ -176,7 +180,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/izuru_a_yg",
             youtube: "https://www.youtube.com/channel/UCkMafPPXcU3D15G4aqxZx_Q",
-            tickets: "https://www.yumenographia.com/tickets/?casts=22"
+            tickets: "https://www.yumenographia.com/tickets/?casts=22",
+            summerNotification: "https://twitter.com/izuru_A_YG/status/1423636838766374912"
         }
     },
     {
@@ -216,7 +221,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/rei_f_yg",
             youtube: "https://www.youtube.com/channel/UCR-fHN56IDgABP7wlnr3uPw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=26"
+            tickets: "https://www.yumenographia.com/tickets/?casts=26",
+            summerNotification: "https://twitter.com/Rei_F_YG/status/1423504541404655621"
         }
     },
     {
@@ -256,7 +262,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/nono_a_yg",
             youtube: "https://www.youtube.com/channel/UCtndV98K-NfSa9KpaV85FRw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=30"
+            tickets: "https://www.yumenographia.com/tickets/?casts=30",
+            summerNotification: "https://twitter.com/Nono_A_YG/status/1424684603562893325?"
         }
     },
     {
@@ -266,7 +273,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/nano_s_yg",
             youtube: "https://www.youtube.com/channel/UClrMHJ0Zl8xpC8pqTdPo9ww",
-            tickets: "https://www.yumenographia.com/tickets/?casts=31"
+            tickets: "https://www.yumenographia.com/tickets/?casts=31",
+            summerNotification: "https://twitter.com/Nano_S_YG/status/1425422071811633152",
         }
     },
     {
@@ -276,7 +284,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/uru_h_yg",
             youtube: "https://www.youtube.com/channel/UCpPGELHdYfYeJQq80S3mcgA",
-            tickets: "https://www.yumenographia.com/tickets/?casts=32"
+            tickets: "https://www.yumenographia.com/tickets/?casts=32",
+            summerNotification: "https://twitter.com/Uru_H_YG/status/1423559940296245250"
         }
     },
     {
@@ -286,7 +295,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/meri_y_yg",
             youtube: "https://www.youtube.com/channel/UCHsHLKm2s0uLVp4-evVBerw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=33"
+            tickets: "https://www.yumenographia.com/tickets/?casts=33",
+            summerNotification: "https://twitter.com/Meri_Y_YG/status/1424309224306135042"
         }
     },
     {
@@ -296,7 +306,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Michika_A_YG",
             youtube: "https://www.youtube.com/channel/UCH8Ef-KxZcDY-17Db83LGJw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=34"
+            tickets: "https://www.yumenographia.com/tickets/?casts=34",
+            summerNotification: "https://twitter.com/Michika_A_YG/status/1423621360702476295"
         }
     },
     {
@@ -326,7 +337,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Kiyosumi_H_YG",
             youtube: "https://www.youtube.com/channel/UCDiZtUxpF9f3TwSXKk2FhaQ",
-            tickets: "https://www.yumenographia.com/tickets/?casts=37"
+            tickets: "https://www.yumenographia.com/tickets/?casts=37",
+            summerNotification: "https://twitter.com/Kiyosumi_H_YG/status/1423566785157111808"
         }
     },
     {
@@ -366,7 +378,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Latte_M_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=41"
+            tickets: "https://www.yumenographia.com/tickets/?casts=41",
+            summerNotification: "https://twitter.com/Latte_M_YG/status/1423950839333355524"
         }
     },
     {
@@ -386,7 +399,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Kogare_M_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=44"
+            tickets: "https://www.yumenographia.com/tickets/?casts=44",
+            summerNotification: "https://twitter.com/Kogare_M_YG/status/1423540228699017217"
         }
     },
     {
@@ -396,7 +410,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Moe_M_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=45"
+            tickets: "https://www.yumenographia.com/tickets/?casts=45",
+            summerNotification: "https://twitter.com/Moe_M_YG/status/1425435719820972043"
         }
     },
     {
@@ -446,7 +461,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Kukui_H_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=50"
+            tickets: "https://www.yumenographia.com/tickets/?casts=50",
+            summerNotification: "https://twitter.com/Kukui_H_YG/status/1425427491632545795"
         }
     },
     {
@@ -456,7 +472,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Sumire_T_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=51"
+            tickets: "https://www.yumenographia.com/tickets/?casts=51",
+            summerNotification: "https://twitter.com/Sumire_T_YG/status/1425475037553848322"
         }
     },
     {
@@ -466,7 +483,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Mei_M_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=52"
+            tickets: "https://www.yumenographia.com/tickets/?casts=52",
+            summerNotification: "https://twitter.com/Mei_M_YG/status/1424014480162185216"
         }
     },
     {
@@ -476,7 +494,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Aoha_S_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=53"
+            tickets: "https://www.yumenographia.com/tickets/?casts=53",
+            summerNotification: "https://twitter.com/Aoha_S_YG/status/1423876906106032129"
         }
     },
     {
@@ -486,7 +505,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Iris_S_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=54"
+            tickets: "https://www.yumenographia.com/tickets/?casts=54",
+            summerNotification: "https://twitter.com/Iris_S_YG/status/1424015492700786689"
         }
     },
     {
@@ -496,7 +516,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Hiyori_Y_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=55"
+            tickets: "https://www.yumenographia.com/tickets/?casts=55",
+            summerNotification: "https://twitter.com/Hiyori_Y_YG/status/1425418069208223751"
         }
     },
 ]
@@ -799,7 +820,8 @@ export const castInfoIncludedGraduated = [
         links: {
             twitter: "https://twitter.com/meri_y_yg",
             youtube: "https://www.youtube.com/channel/UCHsHLKm2s0uLVp4-evVBerw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=33"
+            tickets: "https://www.yumenographia.com/tickets/?casts=33",
+            summerNotification: "https://twitter.com/Meri_Y_YG/status/1424309224306135042"
         }
     },
     {
@@ -809,7 +831,8 @@ export const castInfoIncludedGraduated = [
         links: {
             twitter: "https://twitter.com/Michika_A_YG",
             youtube: "https://www.youtube.com/channel/UCH8Ef-KxZcDY-17Db83LGJw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=34"
+            tickets: "https://www.yumenographia.com/tickets/?casts=34",
+            summerNotification: "https://twitter.com/Michika_A_YG/status/1423621360702476295"
         }
     },
     {
@@ -909,7 +932,8 @@ export const castInfoIncludedGraduated = [
         links: {
             twitter: "https://twitter.com/Moe_M_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=44"
+            tickets: "https://www.yumenographia.com/tickets/?casts=44",
+            summerNotification: "https://twitter.com/Moe_M_YG/status/1425435719820972043"
         }
     },
     {

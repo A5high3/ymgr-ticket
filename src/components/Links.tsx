@@ -29,13 +29,13 @@ export function Links() {
             style={{
               display: "inline-flex",
               textAlign: "left",
-              marginLeft: 130,
-              width: 180,
+              marginLeft: 120,
+              width: 230,
               flexDirection: "column",
               paddingBottom: 20,
             }}
-          >
-            <div style={{ fontSize: 20 }}>{cast.name}</div>
+          > 
+            <div style={{ fontSize: cast.castId === "54" ? 18 : 20 }}>{cast.name}</div>
             <div style={{ paddingLeft: 20 }}>
               <div>
                 <a href={cast.links.tickets} target="_blank" rel="noreferrer noopener">チケットページ</a>
@@ -46,6 +46,11 @@ export function Links() {
               <div>
                 <a href={cast.links.youtube} target="_blank" rel="noreferrer noopener">Youtube</a>
               </div>
+              {cast.links?.summerNotification &&
+                <div>
+                  <a href={cast.links.summerNotification} target="_blank" rel="noreferrer noopener">夏空間ルール</a>
+                </div>
+              }
             </div>
           </div>
         );

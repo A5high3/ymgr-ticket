@@ -36,7 +36,7 @@ export function SpLinks() {
               paddingBottom: 20,
             }}
           >
-            <div style={{ fontSize: 18 }}>{cast.name}</div>
+            <div style={{ fontSize: cast.castId === "54" ? 16 : 18 }}>{cast.name}</div>
             <div style={{ paddingLeft: 12 }}>
             <div>
                 <a href={cast.links.tickets} target="_blank" rel="noreferrer noopener">チケットページ</a>
@@ -47,6 +47,11 @@ export function SpLinks() {
               <div>
                 <a href={cast.links.youtube} target="_blank" rel="noreferrer noopener">Youtube</a>
               </div>
+              {cast.links?.summerNotification &&
+                <div>
+                  <a href={cast.links.summerNotification} target="_blank" rel="noreferrer noopener">夏空間ルール</a>
+                </div>
+              }
             </div>
           </div>
         );
