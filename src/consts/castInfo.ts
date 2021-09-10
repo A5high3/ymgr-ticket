@@ -16,7 +16,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/grail_yg",
             youtube: "https://www.youtube.com/channel/UCHnfJmPoLv1wAr6vYhAXShA",
-            tickets: "https://www.yumenographia.com/tickets/?casts=3"
+            tickets: "https://www.yumenographia.com/tickets/?casts=3",
+            summerNotification: "https://twitter.com/Grail_YG/status/1427183359642402816"
         }
     },
     {
@@ -58,7 +59,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/mau_k_yg",
             youtube: "https://www.youtube.com/channel/UC9RO_y3q3S6CezWPUZwchjg",
-            tickets: "https://www.yumenographia.com/tickets/?casts=10"
+            tickets: "https://www.yumenographia.com/tickets/?casts=10",
+            summerNotification: "https://twitter.com/Mau_K_YG/status/1428983700356689921",
         }
     },
     {
@@ -131,7 +133,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/touca_s_yg",
             youtube: "https://www.youtube.com/channel/UC2qHAqJrfFKgqBpnFV1NnGg",
-            tickets: "https://www.yumenographia.com/tickets/?casts=17"
+            tickets: "https://www.yumenographia.com/tickets/?casts=17",
+            summerNotification: "https://twitter.com/touca_S_YG/status/1427919723413401605"
         }
     },
     {
@@ -324,16 +327,16 @@ export const castInfo = [
             summerNotification: "https://twitter.com/Momori_C_YG/status/1425704711697485827"
         }
     },
-    {
-        name: "檸檬 かふる",
-        castId: "36",
-        themeColor: "rgba(255, 250, 150)",
-        links: {
-            twitter: "https://twitter.com/Kafuru_L_YG",
-            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=36"
-        }
-    },
+    // {
+    //     name: "檸檬 かふる",
+    //     castId: "36",
+    //     themeColor: "rgba(255, 250, 150)",
+    //     links: {
+    //         twitter: "https://twitter.com/Kafuru_L_YG",
+    //         youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+    //         tickets: "https://www.yumenographia.com/tickets/?casts=36"
+    //     }
+    // },
     {
         name: "帆孝 清澄",
         castId: "37",
@@ -362,7 +365,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Leah_R_YG",
             youtube: "https://www.youtube.com/channel/UCaHXzDnB3oA2orV3F6w4gMQ",
-            tickets: "https://www.yumenographia.com/tickets/?casts=39"
+            tickets: "https://www.yumenographia.com/tickets/?casts=39",
+            summerNotification: "https://twitter.com/Leah_R_YG/status/1427215979826745345"
         }
     },
     {
@@ -438,7 +442,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Rose_B_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=47"
+            tickets: "https://www.yumenographia.com/tickets/?casts=47",
+            summerNotification: "https://twitter.com/Rose_B_YG/status/1427233935013027849"
         }
     },
     {
@@ -459,7 +464,8 @@ export const castInfo = [
         links: {
             twitter: "https://twitter.com/Muscat_S_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=49"
+            tickets: "https://www.yumenographia.com/tickets/?casts=49",
+            summerNotification: "https://twitter.com/Muscat_S_YG/status/1426793481389756421"
         }
     },
     {
@@ -528,6 +534,49 @@ export const castInfo = [
             summerNotification: "https://twitter.com/Hiyori_Y_YG/status/1425418069208223751"
         }
     },
+    {
+        name: "鴉羽 律",
+        castId: "43",
+        themeColor: "rgba(141, 160, 182)",
+        links: {
+            twitter: "https://twitter.com/Ritsu_K_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=43",
+            summerNotification: "https://twitter.com/Ritsu_K_YG/status/1435912895615815686?s=20"
+        }
+    },
+    {
+        name: "雪深々 恋白",
+        castId: "56",
+        themeColor: "rgba(246, 191, 188)",
+        links: {
+            twitter: "https://twitter.com/Koshiro_Y_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=56",
+            
+        }
+    },
+    {
+        name: "冬月 みや",
+        castId: "59",
+        themeColor: "rgba(163, 6, 37)",
+        links: {
+            twitter: "https://twitter.com/Miya_F_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=59",
+        }
+    },
+    {
+        name: "工藤 依愛",
+        castId: "60",
+        themeColor: "rgba(250, 188, 112)",
+        links: {
+            twitter: "https://twitter.com/Ia_K_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=60",
+            
+        }
+    }
 ]
 
 export const castInfoIncludedGraduated = [
@@ -1046,4 +1095,46 @@ export const castInfoIncludedGraduated = [
             tickets: "https://www.yumenographia.com/tickets/?casts=55"
         }
     },
+    {
+        name: "鴉羽 律",
+        castId: "43",
+        themeColor: "rgba(141, 160, 182)",
+        links: {
+            twitter: "https://twitter.com/Ritsu_K_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=43",
+        }
+    },
+    {
+        name: "雪深々 恋白",
+        castId: "56",
+        themeColor: "rgba(246, 191, 188)",
+        links: {
+            twitter: "https://twitter.com/Koshiro_Y_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=56",
+            
+        }
+    },
+    {
+        name: "冬月 みや",
+        castId: "59",
+        themeColor: "rgba(163, 6, 37)",
+        links: {
+            twitter: "https://twitter.com/Miya_F_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=59",
+        }
+    },
+    {
+        name: "工藤 依愛",
+        castId: "60",
+        themeColor: "rgba(250, 188, 112)",
+        links: {
+            twitter: "https://twitter.com/Ia_K_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=60",
+            
+        }
+    }
 ]

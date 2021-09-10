@@ -1017,3 +1017,83 @@ a.btn-choose55 {
   line-height: 1;
   transition: 0.3s;
 }
+
+a.btn-choose43 {
+  display: inline-flex;
+  width: 200px;
+  height: 80px;
+  font-size: 18px;
+  margin: 30px 30px 20px;
+  padding: 15px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(141, 160, 182);
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+a.btn-choose56 {
+  display: inline-flex;
+  width: 200px;
+  height: 80px;
+  font-size: 18px;
+  margin: 30px 30px 20px;
+  padding: 15px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(246, 191, 188);
+  color: #000;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+a.btn-choose59 {
+  display: inline-flex;
+  width: 200px;
+  height: 80px;
+  font-size: 18px;
+  margin: 30px 30px 20px;
+  padding: 15px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(163, 6, 37);
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+a.btn-choose60 {
+  display: inline-flex;
+  width: 200px;
+  height: 80px;
+  font-size: 18px;
+  margin: 30px 30px 20px;
+  padding: 15px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(250, 188, 112);
+  color: #000;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
