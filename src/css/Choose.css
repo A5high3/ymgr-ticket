@@ -66,8 +66,8 @@ a.btn-choose4 {
   margin: 30px 30px 20px;
   padding: 15px 10px;
   border: 1px solid rgba(0, 0, 0, 0.9);
-  background: rgba(138, 0, 34);
-  color: #fff;
+  background: rgba(255, 195, 255);
+  color: #505050;
   vertical-align: middle;
   text-align: center;
   flex-direction: column;
@@ -86,8 +86,8 @@ a.btn-choose5 {
   margin: 30px 30px 20px;
   padding: 15px 10px;
   border: 1px solid rgba(0, 0, 0, 0.9);
-  background: rgba(255, 195, 255);
-  color: #505050;
+  background: rgba(138, 0, 34);
+  color: #fff;
   vertical-align: middle;
   text-align: center;
   flex-direction: column;
