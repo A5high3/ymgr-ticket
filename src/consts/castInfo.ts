@@ -576,7 +576,30 @@ export const castInfo = [
             tickets: "https://www.yumenographia.com/tickets/?casts=60",
             
         }
+    },
+    {
+        name: "彩菫 栞",
+        castId: "57",
+        themeColor: "rgba(227, 211, 242)",
+        links: {
+            twitter: "https://twitter.com/Shiori_A_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=57",
+            
+        }
+    },
+    {
+        name: "似我蜂 すがる",
+        castId: "61",
+        themeColor: "rgba(144, 139, 191)",
+        links: {
+            twitter: "https://twitter.com/Sugaru_J_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=61",
+            
+        }
     }
+    
 ]
 
 export const castInfoIncludedGraduated = [
@@ -1134,6 +1157,28 @@ export const castInfoIncludedGraduated = [
             twitter: "https://twitter.com/Ia_K_YG",
             youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
             tickets: "https://www.yumenographia.com/tickets/?casts=60",
+            
+        }
+    },
+    {
+        name: "彩菫 栞",
+        castId: "57",
+        themeColor: "rgba(227, 211, 242)",
+        links: {
+            twitter: "https://twitter.com/Shiori_A_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=57",
+            
+        }
+    },
+    {
+        name: "似我蜂 すがる",
+        castId: "61",
+        themeColor: "rgba(144, 139, 191)",
+        links: {
+            twitter: "https://twitter.com/Sugaru_J_YG",
+            youtube: "https://www.youtube.com/channel/UCvgwkCllAvUNjpe4F6_-GCw",
+            tickets: "https://www.yumenographia.com/tickets/?casts=61",
             
         }
     }

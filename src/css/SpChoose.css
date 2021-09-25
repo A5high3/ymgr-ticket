@@ -1078,3 +1078,43 @@ a.sp-btn-choose60 {
   line-height: 1;
   transition: 0.3s;
 }
+
+a.sp-btn-choose57 {
+  display: inline-flex;
+  width: 100px;
+  height: 40px;
+  margin: 20px 20px 10px;
+  padding: 10px 8px;
+  font-size: 9px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(227, 211, 242);
+  color: #000;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+a.sp-btn-choose61 {
+  display: inline-flex;
+  width: 100px;
+  height: 40px;
+  margin: 20px 20px 10px;
+  padding: 10px 8px;
+  font-size: 9px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(144, 139, 191);
+  color: #000;
+  vertical-align: middle;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.3s;
+}

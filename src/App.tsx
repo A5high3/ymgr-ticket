@@ -32,7 +32,7 @@ export interface Response {
 function judgeEnableState(isEnable: boolean, requestIds: string[]): string {
   if (isEnable === false) {
     if (3 < requestIds.length) {
-      return "一度に取得できるキャストさんは3名までとなっています";
+      return "一度に取得できるキャスト様は3名までとなっています";
     }
     const expireTime = localStorage.getItem("expireTime");
     if (expireTime) {
@@ -44,7 +44,7 @@ function judgeEnableState(isEnable: boolean, requestIds: string[]): string {
     }
   }
   if (requestIds.length === 0) {
-    return "チケット情報を取得するキャストさんを\n3名まで選択してください";
+    return "チケット情報を取得するキャスト様を\n3名まで選択してください";
   }
   return "チケット情報を取得する";
 }

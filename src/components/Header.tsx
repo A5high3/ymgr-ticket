@@ -18,7 +18,7 @@ export function HeroHeader() {
         Unofficial Ticket Info
       </div>
       <div style={{ marginLeft: 100, marginBottom: 200, fontSize: 25 }}>
-        ユメノグラフィア所属キャストさんのチケット関連ツイートを取得する非公式サイト
+        ユメノグラフィア所属キャスト様のチケット関連ツイートを取得する非公式サイト
       </div>
     </header>
   );
