@@ -137,16 +137,16 @@ export const castInfo = [
             summerNotification: "https://twitter.com/touca_S_YG/status/1427919723413401605"
         }
     },
-    {
-        name: "ロッド・クロウリー",
-        castId: "18",
-        themeColor: "rgba(112, 189, 255)",
-        links: {
-            twitter: "https://twitter.com/rod_c_yg",
-            youtube: "https://www.youtube.com/channel/UCd5GupJDWS5OsjztuD0IGhw",
-            tickets: "https://www.yumenographia.com/tickets/?casts=18"
-        }
-    },
+    // {
+    //     name: "ロッド・クロウリー",
+    //     castId: "18",
+    //     themeColor: "rgba(112, 189, 255)",
+    //     links: {
+    //         twitter: "https://twitter.com/rod_c_yg",
+    //         youtube: "https://www.youtube.com/channel/UCd5GupJDWS5OsjztuD0IGhw",
+    //         tickets: "https://www.yumenographia.com/tickets/?casts=18"
+    //     }
+    // },
     {
         name: "紅夜　ぺい",
         castId: "19",
@@ -231,16 +231,16 @@ export const castInfo = [
             summerNotification: "https://twitter.com/Rei_F_YG/status/1423504541404655621"
         }
     },
-    {
-        name: "海老名　ラムネ",
-        castId: "27",
-        themeColor: "rgba(197, 237, 253)",
-        links: {
-            twitter: "https://twitter.com/ramune_e_yg",
-            youtube: "https://www.youtube.com/channel/UCas0jhhLl9l2FbJZ_BQxBkA",
-            tickets: "https://www.yumenographia.com/tickets/?casts=27"
-        }
-    },
+    // {
+    //     name: "海老名　ラムネ",
+    //     castId: "27",
+    //     themeColor: "rgba(197, 237, 253)",
+    //     links: {
+    //         twitter: "https://twitter.com/ramune_e_yg",
+    //         youtube: "https://www.youtube.com/channel/UCas0jhhLl9l2FbJZ_BQxBkA",
+    //         tickets: "https://www.yumenographia.com/tickets/?casts=27"
+    //     }
+    // },
     {
         name: "園田　小陽",
         castId: "28",
@@ -391,17 +391,17 @@ export const castInfo = [
             summerNotification: "https://twitter.com/Latte_M_YG/status/1423950839333355524"
         }
     },
-    {
-        name: "シェナ・レクター",
-        castId: "42",
-        themeColor: "rgba(201, 23, 30)",
-        links: {
-            twitter: "https://twitter.com/Shiena_l_YG",
-            youtube: "https://www.youtube.com/channel/UCbVaiamahjY7Hegjxd3MN5Q",
-            tickets: "https://www.yumenographia.com/tickets/?casts=42",
-            summerNotification: "https://twitter.com/Shiena_l_YG/status/1425682548491919362?s=20"
-        }
-    },
+    // {
+    //     name: "シェナ・レクター",
+    //     castId: "42",
+    //     themeColor: "rgba(201, 23, 30)",
+    //     links: {
+    //         twitter: "https://twitter.com/Shiena_l_YG",
+    //         youtube: "https://www.youtube.com/channel/UCbVaiamahjY7Hegjxd3MN5Q",
+    //         tickets: "https://www.yumenographia.com/tickets/?casts=42",
+    //         summerNotification: "https://twitter.com/Shiena_l_YG/status/1425682548491919362?s=20"
+    //     }
+    // },
     {
         name: "町無 こがれ",
         castId: "44",

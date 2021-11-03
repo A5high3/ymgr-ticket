@@ -34,6 +34,9 @@ function judgeEnableState(isEnable: boolean, requestIds: string[]): string {
     if (3 < requestIds.length) {
       return "一度に取得できるキャスト様は3名までとなっています";
     }
+    if (requestIds.includes("27") || requestIds.includes("36") || requestIds.includes("42")) {
+      return "ツイッターアカウントが存在しないキャスト様を選択しています";
+    }
     const expireTime = localStorage.getItem("expireTime");
     if (expireTime) {
       return `リクエストいただきありがとうございます。\n次の制限解除時刻は\n${dayjs(
@@ -61,6 +64,9 @@ function App() {
       setEnableFlag(true);
     }
     if (3 < requestIds.length) {
+      setEnableFlag(false);
+    }
+    if (requestIds.includes("27") || requestIds.includes("36") ||requestIds.includes("42")) {
       setEnableFlag(false);
     }
     if (expireTime && isNaN(+expireTime)) {
@@ -152,7 +158,7 @@ async function fetchTweet(
   setId: React.Dispatch<React.SetStateAction<string[]>>
 ) {
   const response = await axios.post(
-    "https://a5c7e4s1s2.execute-api.us-east-1.amazonaws.com/prod/ticket",
+    "https://1t9s9wq59b.execute-api.us-east-1.amazonaws.com/develop/ticket",
     JSON.stringify({ requestIds: requestIds })
   );
   setTweetObject(response.data.content);
