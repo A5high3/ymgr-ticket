@@ -90,7 +90,7 @@ function SpApp() {
         <SpGradationSquere squere={squereInitial} />
         <SpGradationSquere squere={squereInitial} />
       </div>
-      <div
+      {/* <div
         style={{
           marginRight: 20,
           marginLeft: 20,
@@ -127,7 +127,7 @@ function SpApp() {
             return <SpTweetsResults castInfo={cast} />;
           })}
         </div>
-      )}
+      )} */}
       <SpLinks />
     </div>
   );

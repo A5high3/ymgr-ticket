@@ -53,8 +53,10 @@ export function SpAbout() {
             }}
           >
             <div>
-              このサイトはユメノグラフィア所属キャスト様のツイッターアカウントのツイートを取得し、
-              チケットについて言及されているツイートのみを抜粋するwebサイトです。
+              このサイトはユメノグラフィア所属キャスト様のお名前とモチーフカラーを参照し、
+              <br />
+              表示を行うことができるwebサイトとなっております。
+              <br />
               当サイトではキャスト様のお名前を敬称略で表記しております。
               <br />
               <br />
@@ -67,8 +69,8 @@ export function SpAbout() {
               <br />
               ・yumgra.un.official.ticket.info@gmail.com 宛へのメール
             </div>
-            <SpFilteringCondition />
-            <SpFetchRestriction />
+            {/* <SpFilteringCondition />
+            <SpFetchRestriction /> */}
           </div>
         </div>
       </Col>

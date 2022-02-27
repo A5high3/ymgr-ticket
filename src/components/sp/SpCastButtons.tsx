@@ -1,5 +1,5 @@
 import React from "react";
-import { castInfo } from "../../consts/castInfo";
+import { castInfoIncludedGraduated } from "../../consts/castInfo";
 import { SpSectionHeader } from "./SpSectionHeader";
 
 interface Props {
@@ -22,7 +22,7 @@ export function SpCastButtons({requestIds, setId}: Props) {
           position: "relative"
         }}
       >
-        {castInfo.map((data) => {
+        {castInfoIncludedGraduated.map((data) => {
           if (!requestIds.includes(data.castId)) {
             return (
               <a

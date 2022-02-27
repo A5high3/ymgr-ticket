@@ -46,11 +46,11 @@ export function Links() {
               <div>
                 <a href={cast.links.youtube} target="_blank" rel="noreferrer noopener">Youtube</a>
               </div>
-              {cast.links?.summerNotification &&
+              {/* {cast.links?.summerNotification &&
                 <div>
                   <a href={cast.links.summerNotification} target="_blank" rel="noreferrer noopener">夏空間ルール</a>
                 </div>
-              }
+              } */}
             </div>
           </div>
         );

@@ -25,7 +25,7 @@ a.sp-btn-choose3 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(162, 255, 250);
   color: #505050;
   vertical-align: middle;
@@ -46,7 +46,7 @@ a.sp-btn-choose4 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(255, 195, 255);
   color: #505050;
   vertical-align: middle;
@@ -66,7 +66,7 @@ a.sp-btn-choose5 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(138, 0, 34);
   color: #fff;
   vertical-align: middle;
@@ -87,7 +87,7 @@ a.sp-btn-choose9 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(255, 232, 80);
   color: #505050;
   vertical-align: middle;
@@ -107,7 +107,7 @@ a.sp-btn-choose10 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(34, 216, 206);
   color: #fff;
   vertical-align: middle;
@@ -127,7 +127,7 @@ a.sp-btn-choose11 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(153, 167, 180);
   color: #fff;
   vertical-align: middle;
@@ -147,7 +147,7 @@ a.sp-btn-choose12 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(112, 88, 163);
   color: #fff;
   vertical-align: middle;
@@ -167,7 +167,7 @@ a.sp-btn-choose13 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(0, 0, 51);
   color: #fff;
   vertical-align: middle;
@@ -187,7 +187,7 @@ a.sp-btn-choose14 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(255, 105, 151);
   color: #fff;
   vertical-align: middle;
@@ -207,7 +207,7 @@ a.sp-btn-choose15 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(245, 216, 146);
   color: #505050;
   vertical-align: middle;
@@ -227,7 +227,7 @@ a.sp-btn-choose16 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(255, 10, 133);
   color: #fff;
   vertical-align: middle;
@@ -247,7 +247,7 @@ a.sp-btn-choose17 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(177, 132, 153);
   color: #fff;
   vertical-align: middle;
@@ -267,7 +267,7 @@ a.sp-btn-choose18 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(112, 189, 255);
   color: #fff;
   vertical-align: middle;
@@ -287,7 +287,7 @@ a.sp-btn-choose19 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(241, 131, 0);
   color: #fff;
   vertical-align: middle;
@@ -307,7 +307,7 @@ a.sp-btn-choose20 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(195, 216, 37);
   color: #505050;
   vertical-align: middle;
@@ -327,7 +327,7 @@ a.sp-btn-choose21 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(154, 13, 124);
   color: #fff;
   vertical-align: middle;
@@ -347,7 +347,7 @@ a.sp-btn-choose22 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(104, 169, 207, 0.9);
   color: #fff;
   vertical-align: middle;
@@ -367,7 +367,7 @@ a.sp-btn-choose23 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(255, 205, 51);
   color: #505050;
   vertical-align: middle;
@@ -387,7 +387,7 @@ a.sp-btn-choose24 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(148, 215, 199);
   color: #fff;
   vertical-align: middle;
@@ -407,7 +407,7 @@ a.sp-btn-choose25 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(255, 230, 244);
   color: #505050;
   vertical-align: middle;
@@ -427,7 +427,7 @@ a.sp-btn-choose26 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(237, 66, 255);
   color: #fff;
   vertical-align: middle;
@@ -447,7 +447,7 @@ a.sp-btn-choose27 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(197, 237, 253);
   color: #505050;
   vertical-align: middle;
@@ -467,7 +467,7 @@ a.sp-btn-choose28 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(199, 79, 48);
   color: #fff;
   vertical-align: middle;
@@ -487,7 +487,7 @@ a.sp-btn-choose29 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(253, 245, 230);
   color: #505050;
   vertical-align: middle;
@@ -507,7 +507,7 @@ a.sp-btn-choose30 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(0, 191, 255);
   color: #fff;
   vertical-align: middle;
@@ -527,7 +527,7 @@ a.sp-btn-choose31 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(137, 201, 151);
   color: #505050;
   vertical-align: middle;
@@ -547,7 +547,7 @@ a.sp-btn-choose32 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(255, 201, 147);
   color: #505050;
   vertical-align: middle;
@@ -567,7 +567,7 @@ a.sp-btn-choose33 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(179, 34, 34);
   color: #fff;
   vertical-align: middle;
@@ -587,7 +587,7 @@ a.sp-btn-choose34 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(192, 168, 132);
   color: #fff;
   vertical-align: middle;
@@ -607,7 +607,7 @@ a.sp-btn-choose35 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(250, 192, 217);
   color: #505050;
   vertical-align: middle;
@@ -627,7 +627,7 @@ a.sp-btn-choose36 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(255, 250, 150);
   color: #505050;
   vertical-align: middle;
@@ -647,7 +647,7 @@ a.sp-btn-choose37 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(42, 61, 32);
   color: #fff;
   vertical-align: middle;
@@ -666,7 +666,7 @@ a.sp-btn-choose38 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(107, 142, 35);
   color: #fff;
   vertical-align: middle;
@@ -686,7 +686,7 @@ a.sp-btn-choose39 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(150, 0, 67);
   color: #fff;
   vertical-align: middle;
@@ -706,7 +706,7 @@ a.sp-btn-choose40 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(227, 247, 205);
   color: #000;
   vertical-align: middle;
@@ -726,7 +726,7 @@ a.sp-btn-choose41 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(219, 255, 163);
   color: #000;
   vertical-align: middle;
@@ -746,7 +746,7 @@ a.sp-btn-choose42 {
   margin: 20px 20px 10px;
   padding: 10px 8px;
   font-size: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(201, 23, 30);
   color: #fff;
   vertical-align: middle;
@@ -1108,7 +1108,7 @@ a.sp-btn-choose61 {
   font-size: 9px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(144, 139, 191);
-  color: #000;
+  color: #fff;
   vertical-align: middle;
   text-align: center;
   flex-direction: column;

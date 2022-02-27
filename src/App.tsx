@@ -10,8 +10,8 @@ import { About } from "./components/About";
 import { CastButtons } from "./components/CastButtons";
 import { GradationSquere } from "./components/GradSquere";
 import { GraduatedGradationSquere } from "./components/GraduatedGradSquere";
-import { TweetsResults } from "./components/TweetsResult";
-import { SectionHeader } from "./components/SectionHeader";
+// import { TweetsResults } from "./components/TweetsResult";
+// import { SectionHeader } from "./components/SectionHeader";
 import { Links } from "./components/Links";
 
 export interface Response {
@@ -57,7 +57,7 @@ function App() {
   const [castData, setTweetObject] = useState([] as Response[]);
   const [isEnable, setEnableFlag] = useState(true);
   const [squereInitial] = useState(true);
-  const [isShowGraduated, setIsShowGraduated] = useState(false);
+  const [isShowGraduated, setIsShowGraduated] = useState(true);
   useEffect(() => {
     const expireTime = localStorage.getItem("expireTime");
     if (expireTime === null || expireTime === undefined) {
@@ -87,7 +87,7 @@ function App() {
 
       <CastButtons requestIds={requestIds} setId={setId} isShowGraduated={isShowGraduated} />
       <div>
-        <GraduatedGradationSquere squere={squereInitial} isShowGraduated={isShowGraduated} setIsShowGraduated={setIsShowGraduated} />
+        {/* <GraduatedGradationSquere squere={squereInitial} isShowGraduated={isShowGraduated} setIsShowGraduated={setIsShowGraduated} /> */}
         <div style={{ position: "relative", marginLeft: "5vw", zIndex: -1 }}>
           <GradationSquere squere={squereInitial} />
           <GradationSquere squere={squereInitial} />
@@ -109,7 +109,7 @@ function App() {
         <GradationSquere squere={squereInitial} />
         <GradationSquere squere={squereInitial} />
       </div>
-      <div
+      {/* <div
         style={{
           marginRight: 300,
           marginLeft: 300,
@@ -146,7 +146,7 @@ function App() {
             return <TweetsResults castInfo={cast} />;
           })}
         </div>
-      )}
+      )} */}
       <Links />
     </div>
   );

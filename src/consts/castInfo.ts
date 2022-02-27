@@ -634,23 +634,23 @@ export const castInfoIncludedGraduated = [
         }
     },
     {
-        name: "宝生　てあ",
-        castId: "4",
-        themeColor: "rgba(138, 0, 34)",
-        links: {
-            twitter: "https://twitter.com/tea_h_yg",
-            youtube: "https://www.youtube.com/channel/UCIS6mGDlL1l9Dz-_6WaGbHA",
-            tickets: "https://www.yumenographia.com/tickets/?casts=4"
-        }
-    },
-    {
         name: "六道　カロ",
-        castId: "5",
+        castId: "4",
         themeColor: "rgba(255, 195, 255)",
         links: {
             twitter: "https://twitter.com/karo_r_yg",
             youtube: "https://www.youtube.com/channel/UCvA6AYRJPUSrGZp31kayhEQ",
             tickets: "https://www.yumenographia.com/tickets/?casts=5"
+        }
+    },
+    {
+        name: "宝生　てあ",
+        castId: "5",
+        themeColor: "rgba(138, 0, 34)",
+        links: {
+            twitter: "https://twitter.com/tea_h_yg",
+            youtube: "https://www.youtube.com/channel/UCIS6mGDlL1l9Dz-_6WaGbHA",
+            tickets: "https://www.yumenographia.com/tickets/?casts=4"
         }
     },
     {
